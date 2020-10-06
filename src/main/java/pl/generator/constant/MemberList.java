@@ -9,7 +9,6 @@ import java.util.List;
 public class MemberList {
     private List<Member> allMembersList = new ArrayList<>();
 
-    // Getter
     public List<Member> getAllMembersList() throws IOException {
         String file = "members.txt";
         String line;

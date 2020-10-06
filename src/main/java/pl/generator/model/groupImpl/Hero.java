@@ -10,12 +10,10 @@ import java.util.List;
 public class Hero implements Group {
     private List<Member> heroes = new ArrayList<>();
 
-    // Getter
     public List<Member> getHeroes() {
         return heroes;
     }
 
-    // add new Hero
     @Override
     public void addMember(Member member) {
         getHeroes().add(member);

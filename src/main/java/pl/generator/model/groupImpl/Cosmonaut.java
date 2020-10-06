@@ -10,12 +10,10 @@ import java.util.List;
 public class Cosmonaut implements Group {
     private List<Member> cosmonauts = new ArrayList<>();
 
-    // Getter
     public List<Member> getCosmonauts() {
         return cosmonauts;
     }
 
-    // add new Junior
     @Override
     public void addMember(Member member) {
         getCosmonauts().add(member);
