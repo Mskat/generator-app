@@ -92,7 +92,6 @@ public class Chooser {
         Level level;
         do {
             int randNum = rand.nextInt(allMemberList.size());
-            System.out.println(randNum);
             Member randMemberChosen = allMemberList.get(randNum);
             if (!randMemberChosen.isAlreadyInGroup()) {
                 level = randMemberChosen.getLevel();
@@ -101,8 +100,6 @@ public class Chooser {
                 count++;
             }
             allCount++;
-            System.out.println("iteration count: " + count);
-            System.out.println("All iteration count: " + allCount);
         } while (countNotInUse() != 0);
     }
 
@@ -128,6 +125,6 @@ public class Chooser {
         }
         int checkerAmountOfAllMembersUsed = hero.getListSize() + cosmonaut.getListSize() + hollywoodWife.getListSize() + gamer.getListSize();
         // There should be 20 people
-        System.out.println("amount in all groups: " + checkerAmountOfAllMembersUsed);
+        System.out.println("\nAmount in all groups: " + checkerAmountOfAllMembersUsed);
     }
 }
