@@ -4,5 +4,5 @@ public enum Level {
     STARTER,
     JUNIOR,
     ORDINARY,
-    COMANDO
+    COMMANDO
 }
