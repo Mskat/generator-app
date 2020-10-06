@@ -11,11 +11,11 @@ public class MemberList {
 
     // Getter
     public List<Member> getAllMembersList() throws IOException {
-        String file = "members.txt";
+        String pathFile = "members.txt";
         String line;
         BufferedReader br = null;
         try {
-            br = new BufferedReader(new FileReader(file));
+            br = new BufferedReader(new FileReader(pathFile));
             while ((line = br.readLine()) != null) {
                 String[] member = line.split(",");
                 Member newMember = new Member(member[0], member[1], Level.valueOf(member[2]));
