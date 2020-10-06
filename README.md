@@ -4,10 +4,10 @@ is member's experience level.</p>
 
  ## Table of Contents
 * [General info](#general-info)
-* [Technologies](##technologies)
-* [Setup](##setup)
-* [Features](##features)
-* [Sources](##sources)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Sources](#sources)
 
 ## General info
 <p>The project has been created in cooperation with the participants of the Facebook group which 
