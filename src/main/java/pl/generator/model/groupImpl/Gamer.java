@@ -10,18 +10,15 @@ import java.util.List;
 public class Gamer implements Group {
     private List<Member> gamers = new ArrayList<>();
 
-    // Getter
     public List<Member> getGamers() {
         return gamers;
     }
 
-    // add gamer to list
     @Override
     public void addMember(Member member) {
         gamers.add(member);
     }
 
-    // get size
     @Override
     public int getListSize() {
         return gamers.size();

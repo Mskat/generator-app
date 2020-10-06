@@ -10,12 +10,10 @@ import java.util.List;
 public class HollywoodWife implements Group {
     private List<Member> hollywoodWives = new ArrayList<>();
 
-    // Getter
     public List<Member> getHollywoodWives() {
         return hollywoodWives;
     }
 
-    // add new wife to list
     @Override
     public void addMember(Member member) {
         hollywoodWives.add(member);
